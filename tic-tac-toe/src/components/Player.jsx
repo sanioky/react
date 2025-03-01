@@ -3,7 +3,6 @@ import { useState } from 'react';
 const Player = ({ name, symbol }) => {
     const [isEditing, setIsEditing] = useState(false);
     const [newName, setNewName] = useState(name);
-    const [newSymbol, setNewSymbol] = useState(symbol);
 
     const handleEdit = () => {
         setIsEditing(true);
